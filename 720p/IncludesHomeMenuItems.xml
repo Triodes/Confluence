@@ -187,28 +187,28 @@
 		</control>
 		<control type="button" id="90122">
 			<include>ButtonHomeSubCommonValues</include>
-			<label>5</label>
-			<onclick>ActivateWindow(Settings)</onclick>
+			<label>7</label>
+			<onclick>ActivateWindow(FileManager)</onclick>
 		</control>
 		<control type="button" id="90120">
 			<include>ButtonHomeSubCommonValues</include>
-			<label>OpenELEC</label>
+			<label>[COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR]</label>
 			<onclick>RunAddon(service.openelec.settings)</onclick>
 		</control>
 		<control type="button" id="90123">
 			<include>ButtonHomeSubCommonValues</include>
-			<label>7</label>
-			<onclick>ActivateWindow(FileManager)</onclick>
+			<label>20094</label>
+			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 		</control>
 		<control type="button" id="90124">
 			<include>ButtonHomeSubCommonValues</include>
-			<label>13200</label>
-			<onclick>ActivateWindow(Profiles)</onclick>
+			<label>653</label>
+			<onclick>UpdateLibrary(video)</onclick>
 		</control>
 		<control type="button" id="90125">
 			<include>ButtonHomeSubCommonValues</include>
-			<label>130</label>
-			<onclick>ActivateWindow(SystemInfo)</onclick>
+			<label>20183</label>
+			<onclick>ReloadSkin()</onclick>
 		</control>
 		<control type="image" id="90126">
 			<width>35</width>
